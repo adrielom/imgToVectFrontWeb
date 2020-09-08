@@ -1,0 +1,57 @@
+$primaryColor:#4cd3ec;
+$lighterPrimaryColor:#dbf8ff;
+
+.previewImage {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.opacity02 {
+    opacity: 20%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#imageImporterSection {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+
+    label {
+        position: absolute;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .previewImage {
+        position: relative;
+        z-index: 1;
+    }
+
+    .iconImage {
+        height: 5rem;
+        width: 5rem;
+        color: $primaryColor;
+        z-index: 1;
+    }
+
+    .iconImage:hover {
+        color: $lighterPrimaryColor;
+    }
+}
+
+@media (min-width: 300px) {
+
+    .previewImage {
+        width: auto;
+        height: 300px;
+        background-size: contain;
+    }
+}
