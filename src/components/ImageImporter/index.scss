@@ -1,14 +1,9 @@
 $primaryColor:#4cd3ec;
 $lighterPrimaryColor:#dbf8ff;
+$iconSize: 5rem;
 
-.previewImage {
-    width: 100%;
-    height: auto;
-    background-size: contain;
-}
-
-.opacity02 {
-    opacity: 20%;
+.opacity04 {
+    opacity: 40%;
 }
 
 input[type="file"] {
@@ -16,13 +11,35 @@ input[type="file"] {
 }
 
 #imageImporterSection {
-    width: 70%;
-    height: 300px;
+    width: 90%;
+    height: auto;
+    min-height: 300px;
+    padding: 1.2em 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
+    top: 2em;
+    border-radius: 20px;
     background-color: white;
+    -webkit-box-shadow: 2px 7px 31px -4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 7px 31px -4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 7px 31px -4px rgba(0, 0, 0, 0.4);
+
+    .imageCenterContainer {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+
+        label {
+            z-index: 2;
+            cursor: pointer;
+        }
+    }
 
     label {
         position: absolute;
@@ -31,19 +48,33 @@ input[type="file"] {
     }
 
     .previewImage {
-        position: relative;
+        width: 80vw;
+        height: 100%;
+        background-size: contain;
         z-index: 1;
     }
 
     .iconImage {
-        height: 5rem;
-        width: 5rem;
+        height: $iconSize;
+        width: $iconSize;
         color: $primaryColor;
         z-index: 1;
     }
 
     .iconImage:hover {
         color: $lighterPrimaryColor;
+    }
+
+    .renderPreviewContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            margin-top: 2em;
+        }
     }
 }
 

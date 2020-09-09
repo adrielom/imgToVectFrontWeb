@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './index.scss'
-import { FaPlusCircle } from 'react-icons/fa'
+import { FaPlusCircle, FaImage } from 'react-icons/fa'
+import { SiConvertio } from 'react-icons/si'
 
 // import { Container } from './styles';
 
@@ -16,7 +17,23 @@ function ImageImporter() {
         console.log(imageSource)
         if (imageSource !== '') {
             return (
-                <img src={imageSource} className="previewImage" alt={'previewImage'} />
+                <div className="renderPreviewContainer">
+                    <div className="imageCenterContainer">
+                        <label htmlFor="imageSource"> <FaPlusCircle className="iconImage opacity04" /> </label>
+                        <img src={imageSource} className="previewImage" alt={'previewImage'} />
+                    </div>
+                    <div>
+                        <SiConvertio className="iconImage" />
+                    </div>
+                    <div>
+
+                        <FaImage className="iconImage" />
+                    </div>
+                </div>
+            )
+        } else {
+            return (
+                <label htmlFor="imageSource"> <FaPlusCircle className="iconImage" /> </label>
             )
         }
     }
@@ -24,17 +41,8 @@ function ImageImporter() {
     return (
         <div id="imageImporterSection">
             {RenderPreviewImage()}
-            {
-                imageSource === '' ?
-                    (
-                        <label htmlFor="imageSource"> <FaPlusCircle className="iconImage" /> </label>
-                    ) :
-                    (
-                        <label htmlFor="imageSource"> <FaPlusCircle className="iconImage opacity02" /> </label>
-                    )
-            }
-            <input id="imageSource" alt='imgage source' type='file' onChange={ImageChange} />
-        </div>
+            <input id="imageSource" accept="image/*" alt='imgage source' type='file' onChange={ImageChange} />
+        </div >
     );
 }
 
