@@ -28,7 +28,7 @@ input[type="file"] {
 .card {
     width: 90%;
     padding: 15px;
-    margin: 15px;
+    margin: 15px auto;
     border-radius: 20px;
     background-color: white;
     -webkit-box-shadow: 2px 7px 31px -4px rgba(0, 0, 0, 0.4);
@@ -227,7 +227,6 @@ input[type="file"] {
 
     .card {
         padding: 0;
-        margin: 15px auto;
     }
 
     #sliderContainer,

@@ -3,6 +3,10 @@
     --lightPrimaryColor: #d9f5fb;
 }
 
+html {
+    width: 100%;
+}
+
 .app {
     width: 100%;
     background-color: var(--lightPrimaryColor);

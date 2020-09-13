@@ -1,4 +1,4 @@
-import React, { useState, useRef, ButtonHTMLAttributes } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './index.scss'
 import { FaPlusCircle } from 'react-icons/fa'
 import { SiConvertio } from 'react-icons/si'
@@ -18,6 +18,17 @@ function ImageImporter() {
     const [servedImageName, setServedImageName] = useState('')
     const [imgName, setImgName] = useState('')
     const [imgServedName, setImgServedName] = useState('')
+
+
+    useEffect(() => {
+        setTimeout(() => {
+            setImageSource('')
+            setSvg('')
+            setImgName('')
+            setServedImageName('')
+        }, 840000);
+    }, [imageSource])
+
     let img: any = {}
 
     const buttonRef = useRef<HTMLButtonElement>(null)
