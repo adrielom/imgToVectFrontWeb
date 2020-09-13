@@ -8,7 +8,7 @@ $secondaryColor: #e981c7;
 $secondaryLightColor: #eb8dcc;
 
 .opacity04 {
-    opacity: 40%;
+    opacity: 0.4;
 }
 
 input[type="file"] {
@@ -95,7 +95,7 @@ input[type="file"] {
     .previewImage {
         width: auto;
         height: 45%;
-        max-height: 45vh;
+        max-height: 25vh;
         background-size: contain;
         z-index: 1;
     }
@@ -205,7 +205,7 @@ input[type="file"] {
 @media (min-width: 600px) {
 
     .previewImage {
-        max-height: 50vh;
+        max-height: 50vh !important;
         height: auto !important;
         background-size: contain;
     }
@@ -227,7 +227,7 @@ input[type="file"] {
 
     .card {
         padding: 0;
-        margin: auto;
+        margin: 15px auto;
     }
 
     #sliderContainer,
