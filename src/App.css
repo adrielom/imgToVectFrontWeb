@@ -1,16 +1,22 @@
 :root {
     --primaryColor: #4cd3ec;
     --lightPrimaryColor: #d9f5fb;
-
 }
 
 .app {
     width: 100%;
-    height: 100vh;
     background-color: var(--lightPrimaryColor);
 }
 
 section {
     height: 100%;
     position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .app {
+        height: 100vh;
+    }
 }
