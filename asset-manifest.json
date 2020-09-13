@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/imgToVectFrontWeb/static/css/main.35ee1b71.chunk.css",
+    "main.css": "/imgToVectFrontWeb/static/css/main.4a9d2550.chunk.css",
     "main.js": "/imgToVectFrontWeb/static/js/main.acb128e7.chunk.js",
     "main.js.map": "/imgToVectFrontWeb/static/js/main.acb128e7.chunk.js.map",
     "runtime-main.js": "/imgToVectFrontWeb/static/js/runtime-main.987d3c45.js",
@@ -8,15 +8,15 @@
     "static/js/2.cbe63ffc.chunk.js": "/imgToVectFrontWeb/static/js/2.cbe63ffc.chunk.js",
     "static/js/2.cbe63ffc.chunk.js.map": "/imgToVectFrontWeb/static/js/2.cbe63ffc.chunk.js.map",
     "index.html": "/imgToVectFrontWeb/index.html",
-    "precache-manifest.44797fe88a3043b72233eabedcc622a8.js": "/imgToVectFrontWeb/precache-manifest.44797fe88a3043b72233eabedcc622a8.js",
+    "precache-manifest.91b1517336aee3fece0668c5be770e3b.js": "/imgToVectFrontWeb/precache-manifest.91b1517336aee3fece0668c5be770e3b.js",
     "service-worker.js": "/imgToVectFrontWeb/service-worker.js",
-    "static/css/main.35ee1b71.chunk.css.map": "/imgToVectFrontWeb/static/css/main.35ee1b71.chunk.css.map",
+    "static/css/main.4a9d2550.chunk.css.map": "/imgToVectFrontWeb/static/css/main.4a9d2550.chunk.css.map",
     "static/js/2.cbe63ffc.chunk.js.LICENSE.txt": "/imgToVectFrontWeb/static/js/2.cbe63ffc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.987d3c45.js",
     "static/js/2.cbe63ffc.chunk.js",
-    "static/css/main.35ee1b71.chunk.css",
+    "static/css/main.4a9d2550.chunk.css",
     "static/js/main.acb128e7.chunk.js"
   ]
 }

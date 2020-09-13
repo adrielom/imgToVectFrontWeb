@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/imgToVectFrontWeb/precache-manifest.44797fe88a3043b72233eabedcc622a8.js"
+  "/imgToVectFrontWeb/precache-manifest.91b1517336aee3fece0668c5be770e3b.js"
 );
 
 self.addEventListener('message', (event) => {
