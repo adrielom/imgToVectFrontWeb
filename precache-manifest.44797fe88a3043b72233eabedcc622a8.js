@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2821789a5290f05dbd30e116781c8fd2",
+    "revision": "afd14e3621fc96e3e6fca6f301df14c0",
     "url": "/imgToVectFrontWeb/index.html"
   },
   {
-    "revision": "d330333ae06ba3a7f24f",
-    "url": "/imgToVectFrontWeb/static/css/main.9a722c0b.chunk.css"
+    "revision": "3d876210e5ce19b53ff3",
+    "url": "/imgToVectFrontWeb/static/css/main.35ee1b71.chunk.css"
   },
   {
     "revision": "e981d7b883609d38c092",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imgToVectFrontWeb/static/js/2.cbe63ffc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d330333ae06ba3a7f24f",
+    "revision": "3d876210e5ce19b53ff3",
     "url": "/imgToVectFrontWeb/static/js/main.acb128e7.chunk.js"
   },
   {
